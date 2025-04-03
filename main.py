@@ -275,6 +275,6 @@ if __name__ == "__main__":
         "6": (217, 89, 204),
         "7": (22, 11, 15)
     }
-    model = YOLO("./weights/last.pt")
+    model = YOLO("/kaggle/input/yolo_weights_object_detection/pytorch/default/1/last.pt")
     video_path = sys.argv[1]
     annotate_video(video_path, model)
